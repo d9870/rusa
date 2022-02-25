@@ -2,7 +2,7 @@
   "name": "rusa",
   "template": "Default",
   "isConfigured": {
-    "client": false,
+    "client": true,
     "server": false
   }
 }
