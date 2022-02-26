@@ -17,6 +17,10 @@
 ## Backend
 - Express
 - mongoose
++ Dep
+	- body-parse
+	- cors
+	- nodemon
 
 # Usage
 ```sh

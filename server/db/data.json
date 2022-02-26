@@ -1,0 +1,14 @@
+[
+{
+    "name": "Piyush",
+    "email": "piyush@gmail.com",
+    // "program":"Java",
+    // "group":"individual"
+},
+{
+    "name": "Rahul",
+    "email": "rahul@gmail.com",
+    "program":"C++",
+    // "group":"College",
+    // "college":"Mulund college of commerce"
+}]
