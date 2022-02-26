@@ -7,19 +7,19 @@ const express=require("express");
 const router=express.Router();
 const { createProgram , getProgram , getAllProgram , editProgram , removeProgram } = require("../controllers/program"); // import function from controller
 
-//> router paths
-// router.route("/").get((req,res)=>{ res.send("tasks ...") })
-
+// Test
+router.route("/").get( async (req,res)=>{
+	let testData = await require("../db/data.json")
+	res.json(testData)
+	// res.json({"name":"Piyush"})
+});
 //> CRUD 
 
-// send/create tasks
-// app.post('/api/v1/tasks',(req,res)=>{})
+// Create
 router.route("/").post(createProgram);
-// get/fetch tasks
-// /api/v1/task - get all task
+// Read
 // router.route("/").get(getAllProgram);
-router.route("/").get(getAllProgram);
-// /api/v1/task/:id - get single task
+// Read Single
 router.route("/:id").get(getProgram);
 // update/edit task
 // app.patch('/api/v1/tasks/:id',(req,res)=>{})

@@ -1,7 +1,7 @@
 # M E V N
 
 # Template
-
+- https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/
 - https://www.downloadnewthemes.com/2020/10/rozoom-distance-education-elearning.html
 - https://www.elegantthemes.com/layouts/business/locksmith-about-page/live-demo
 
@@ -22,6 +22,9 @@
 	- cors
 	- nodemon
 
+
+
+
 # Usage
 ```sh
 git clone <repo>
@@ -33,3 +36,29 @@ mevn serve
 
 # MongoDB
 - url :  mongodb+srv://piyush98:<password>@cluster0.frhug.mongodb.net/<myFirstDatabase>?retryWrites=true&w=majority
+
+# Fronend
++ View
+	- Home
+	- About-1
+	- About-2
+	- Form
+
+# Backend
+
+REST API
+Schema
+- For Program
+```json
+[{
+	"id":1,
+	"program":"A",
+	"about":"A for apple",
+	"subprogram":[
+		{ "program":"A.1","about":
+
+	}]
+
+}]
+```
+- For Resgister

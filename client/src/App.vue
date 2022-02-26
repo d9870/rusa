@@ -13,19 +13,20 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-}
-
-#nav a {
+.dropdown-item:hover{
+  background-color: #54a0ff;
+  cursor: pointer;
+  color: white;
   font-weight: bold;
-  color: #2c3e50;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.about .program{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .program .content{
+  width: 30%;
 }
 </style>
