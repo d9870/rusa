@@ -1,6 +1,7 @@
 # M E V N
 
 # Template
+- https://www.codecademy.com/catalog/language/html-css
 - https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/
 - https://www.downloadnewthemes.com/2020/10/rozoom-distance-education-elearning.html
 - https://www.elegantthemes.com/layouts/business/locksmith-about-page/live-demo

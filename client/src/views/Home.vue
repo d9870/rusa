@@ -1,17 +1,23 @@
 <template>
     <div class="home">
-        <img alt="Vue logo" src="../assets/mevn.jpg" width="350" />
-        <!-- <HelloWorld msg="Default Boilerplate Template" /> -->
         <!-- <Navbar /> -->
+        <section class="hero is-medium is-link mb-6">
+            <div class="hero-body">
+                <p class="title">
+                    Medium hero
+                </p>
+                <p class="subtitle">
+                    Medium subtitle
+                </p>
+            </div>
+        </section>
         <Card />
-
         <hr>
         <footer class="footer">
-          <div class="is-block">
-            Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Maxime ut iste fuga optio, perferendis dolores. Veritatis facere eum repellendus aliquid sapiente maiores officia autem expedita incidunt. Aliquid quisquam odit hic fugiat magnam.
-          </div>
+            <div class="is-block">
+                Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Maxime ut iste fuga optio, perferendis dolores. Veritatis facere eum repellendus aliquid sapiente maiores officia autem expedita incidunt. Aliquid quisquam odit hic fugiat magnam.
+            </div>
         </footer>
-        
     </div>
 </template>
 <script>

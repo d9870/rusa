@@ -18,5 +18,17 @@ export default new Router({
       name: "about",
       component: () => import("./views/About.vue"),
     },
+    {
+      path: "/programs/:program/:id",
+      name: "program",
+      component: () => import("./views/Program.vue"),
+      props:true
+    },
+    {
+      path: "/register",
+      name: "register",
+      component: () => import("./views/Register.vue"),
+      // props:true
+    }
   ],
 });

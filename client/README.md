@@ -4,3 +4,5 @@
 .home
 .Navbar
 .Card
+
+<!-- <img alt="Vue logo" src="../assets/mevn.jpg" width="350" /> -->
